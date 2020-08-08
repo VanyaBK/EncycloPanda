@@ -7,9 +7,10 @@ public class Likes {
     private long postId;
     private String userId;
    
-    public Likes(long id, long postId, String userId) {
+    public Likes(long id, long postId, String userId, long likes) {
         this.id = id;
         this.postId = postId;
         this.userId = userId;
+        this.likes = likes;
     }
 }
